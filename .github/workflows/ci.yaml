@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: hello
-        run : echo "The user has pushed code"`
+        run : echo "The user has pushed code"
