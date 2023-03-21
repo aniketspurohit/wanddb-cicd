@@ -1,0 +1,9 @@
+name: learn-github-actions
+
+on: [push]
+jobs:
+  learning-github-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run : echo "The user has pushed code"`
