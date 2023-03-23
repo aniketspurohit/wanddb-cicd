@@ -1,9 +1,13 @@
 name: learn-github-actions
 
-on: [push]
+on:
+  push:
+    branches: [ main ]
 jobs:
   learning-github-action:
     runs-on: ubuntu-latest
+    env:
+      MY_NAME: ANIKET_S_PUROHIT
     steps:
       - uses: actions/checkout@v3
       - name: hello
