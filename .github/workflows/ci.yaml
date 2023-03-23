@@ -5,6 +5,7 @@ jobs:
   secrets-addition:
     runs-on: ubuntu-latest
     steps:
+      - run: echo $MY_NAME
       - env:
           MY_NAME: ${{ secrets.MY_NAME }}
   learning-github-action:
